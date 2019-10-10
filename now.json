@@ -1,0 +1,10 @@
+{
+	"scope": "mcw-anesth",
+	"alias": ["xlsxport.mcw-anesth.tech"],
+	"builds": [
+		{"src": "index.py", "use": "@jacobmischka/now-python"}
+	],
+	"env": {
+		"ALLOWED_ORIGINS": "mcwanet.com mcw-anesth.tech mcw-anesthesiology.tech residentprogram.com"
+	}
+}
